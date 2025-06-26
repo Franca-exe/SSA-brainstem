@@ -9,6 +9,12 @@ Code repository in construction for the provisionally accepted MICCAI 2025 paper
 
 📝 **Dataset**
 
+Under folder 'Dataset', data used in the project are available and divided in three subfolders.
+- 'original': contains the raw .obj shapes of brainstem at original resolution as obtained by segmentation masks from MRI;
+- 'remeshed': contains preprocessed .obj shapes at 3K resolution after cleaning and remeshing procedure via rematching [];
+- 'bm': contains .mat files scaling back from low to high resolution shapes
+
+
 
 **Pipeline**
 
