@@ -6,7 +6,7 @@ Code repository under construction for the provisionally accepted MICCAI 2025 pa
 
 🧑‍💻️ **Installation and Requirements**
 
-<pre> ```bash conda create -n SSA-brainstem python=3.11.9 conda activate SSA-brainstem ``` </pre>
+<pre> conda create -n SSA-brainstem python=3.11.9 conda activate SSA-brainstem </pre>
 
 📝 **Dataset**
 
