@@ -16,8 +16,8 @@ Implemented functions:
 
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
-import igl
-from igl import point_mesh_squared_distance
+#import igl
+#from igl import point_mesh_squared_distance
 
 
 def chamfer_distance(x, y, metric='l2', direction='bi'):
@@ -61,20 +61,20 @@ def chamfer_distance(x, y, metric='l2', direction='bi'):
         
     return chamfer_dist
 
-def point_to_surface_distance(x_vert, x_faces, y_vert, y_faces):
+#def point_to_surface_distance(x_vert, x_faces, y_vert, y_faces):
 
     # first direction: compute from x to y
-    ds_xy , _, _ = point_mesh_squared_distance(x_vert, y_vert, y_faces)
-    ds_xy_root_mean = np.mean(np.sqrt(ds_xy))
+    #ds_xy , _, _ = point_mesh_squared_distance(x_vert, y_vert, y_faces)
+    #ds_xy_root_mean = np.mean(np.sqrt(ds_xy))
 
     # second direction
-    ds_yx , _, _ = point_mesh_squared_distance(y_vert, x_vert, x_faces)
-    ds_yx_root_mean = np.mean(np.sqrt(ds_yx))
+    #ds_yx , _, _ = point_mesh_squared_distance(y_vert, x_vert, x_faces)
+    #ds_yx_root_mean = np.mean(np.sqrt(ds_yx))
 
     # average direction measure
-    point_to_surface_distance = ds_xy_root_mean + ds_yx_root_mean
+    #point_to_surface_distance = ds_xy_root_mean + ds_yx_root_mean
 
-    return point_to_surface_distance
+    #return point_to_surface_distance
 
 def hausdorff_distance(x, y, metric='l2', direction='bi'):
     """Hausdorff distance between two point clouds
