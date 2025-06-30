@@ -9,7 +9,7 @@ Code repository under construction for the provisionally accepted MICCAI 2025 pa
 Our project requires the creation of a virtual environment with python version 3.11.9. The pipeline requires the installation 
 of [pyFM](https://github.com/RobinMagnet/pyFM) , as specified in requirements.txt.
 
-<```bash 
+```bash 
 conda create -n SSA-brainstem python=3.11.9   # create conda virtual environment
 conda activate SSA-brainstem
 pip install -r requirements.txt  # install other necessary libraries via pip
