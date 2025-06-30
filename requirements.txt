@@ -1,0 +1,12 @@
+SimpleITK 
+numpy
+nibabel
+matplotlib
+scipy
+trimesh 
+tqdm
+pandas
+networkx
+scikit-learn
+plotly
+pyfmaps
