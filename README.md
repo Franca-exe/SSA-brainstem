@@ -6,7 +6,8 @@ Code repository under construction for the provisionally accepted MICCAI 2025 pa
 
 🧑‍💻️ **Installation and Requirements**
 
-<pre> conda create -n SSA-brainstem python=3.11.9 conda activate SSA-brainstem </pre>
+<pre> conda create -n SSA-brainstem python=3.11.9 </pre>
+<pre> conda activate SSA-brainstem </pre>
 
 📝 **Dataset**
 
@@ -15,7 +16,7 @@ Under folder 'Dataset', data used in the project are available and divided in th
 - '*remeshed*': contains preprocessed .obj shapes at 3K resolution after cleaning and remeshing procedure via [ReMatching](https://github.com/filthynobleman/rematching)
 - '*bm*': contains .mat files scaling back from low to high resolution shapes
 
-For privacy reasons, all data are anonymized and provided with basic information in 'info_subjects.xlsx'.
+For privacy reasons, all data are anonymized and provided with basic information in 'info_subjects.xlsx'.\
 After approval, data will also be available in Zenodo and [BOARD](https://board.unimib.it/research-data/)
 
 ⚙️ **Pipeline**
