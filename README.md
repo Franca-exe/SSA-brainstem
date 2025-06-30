@@ -15,7 +15,7 @@ Under folder 'Dataset', data used in the project are available and divided in th
 - '*bm*': contains .mat files scaling back from low to high resolution shapes
 
 For privacy reasons, all data are anonymized and provided with basic information in 'info_subjects.xlsx'.
-After approval, data will also be available in Zenodo and BOARD [BOARD](https://board.unimib.it/research-data/)
+After approval, data will also be available in Zenodo and [BOARD](https://board.unimib.it/research-data/)
 
 ⚙️ **Pipeline**
 
